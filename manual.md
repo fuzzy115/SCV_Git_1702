@@ -25,4 +25,5 @@ git switch [name_of_branch] command
 By using the git push command, you can push your changes to the other repository
 By using git pull command, you can pull the files from other repository 
 By using git clone command, you can make a local copy of any remote repository.
-* 9. git merge command is used to merge different branches of a project into one.
+* 9. git merge command is used to merge different branches of a project into one. When merging there can rise a conflict between project files 
+* you can read more at https://www.atlassian.com/git/tutorials/setting-up-a-repository or [git manual different languages , here ru](https://git-scm.com/book/ru/v2/)
