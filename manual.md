@@ -12,5 +12,11 @@ is hierarchical
  git commit
  I suggest using git commit -m "message", because git requires a message 
  describing committed changes.
-* 5. You should only store the files yoou have changed. That stands 
-to reason. You can add the changed files
+* 6. You should only store the files you have changed. That stands 
+to reason. You can add the changed files by using the command
+git add filename
+* 7. branching: it is a bit similar to having different folders
+though of course nothing of the kind.
+You can start a new branch by using git branch command.
+ you can switch between bramches 
+by using git switch command
