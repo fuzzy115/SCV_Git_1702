@@ -25,6 +25,8 @@ You can start a new branch by using git branch [args] command. If no
 argument is specified, it would show you the branch you are in.
 you can switch between branches by using 
 git switch [name_of_branch] command
+git checkout -b name_of_branch creates a new branch and switches working tree there
+the starting point for new branch can be specified git add 
 * 8. git is made to sychronize data between repositories.
 By using the git push command, you can push your changes to the other repository
 By using git pull command, you can pull the files from other repository 
