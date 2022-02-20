@@ -46,3 +46,5 @@ git checkout -b branchname -old-state commitid
 --union
 --diff
 --theirs
+![somepicture](./basic-merging-1.png)
+
