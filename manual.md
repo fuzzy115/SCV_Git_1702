@@ -31,7 +31,8 @@ the starting point for new branch can be specified git add
 By using the git push command, you can push your changes to the other repository
 By using git pull command, you can pull the files from other repository 
 By using git clone command, you can make a local copy of any remote repository.
-it's us
+it's useful to have a branch named remote to push your committed code from local storage to
+network storage
 * 9. git merge command is used to merge different branches of a project into one. When merging there can rise a conflict between project files 
 * you can read more at https://www.atlassian.com/git/tutorials/setting-up-a-repository or [git manual different languages , here ru](https://git-scm.com/book/ru/v2/)
 * 10. TODO:strategies of merging
@@ -41,4 +42,7 @@ git stash - store data before reset if there is data to keep
 git log - get changelog
 git checkout commitid - revert to old commit
 git checkout -b branchname -old-state commitid 
-* 12. 
+* 12. git merge has a handful of useful options
+--union
+--diff
+--theirs
