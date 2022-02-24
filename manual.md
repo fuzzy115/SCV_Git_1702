@@ -64,3 +64,8 @@ git checkout -b branchname -old-state commitid
 --diff
 --theirs
 ![somepicture](./basic-merging-1.png)
+
+git checkout __branch__
+git checkout main __filename__
+git commit move
+copy a file from one reposiptory to another without merge (nothing to merge here)
