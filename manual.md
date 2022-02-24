@@ -64,16 +64,3 @@ git checkout -b branchname -old-state commitid
 --diff
 --theirs
 ![somepicture](./basic-merging-1.png)
-
-=======
-* 12. 
-I wonder what would happen if I delete some references from ./git/logs/HEAD file? maybe I should check
-or maybe I should also delete all the references from the ./git/logs/refs/heads tree.
-# case "$COMMIT_SOURCE,$SHA1" in
-#  ,|template,)
-#    /usr/bin/perl -i.bak -pe '
-#       print "\n" . `git diff --cached --name-status -r`
-# 	 if /^#/ && $first++ == 0' "$COMMIT_MSG_FILE" ;;
-#  *) ;;
-# esac
-
